@@ -3,12 +3,12 @@ import {AppThunk} from './types';
 
 // types
 interface INumpad {
-  numpad: string;
+  numpad: number;
 }
 
 // initial state
 const initialState = {
-  numpad: '',
+  numpad: 0,
 } as INumpad;
 
 // actions
