@@ -1,4 +1,7 @@
 {
   "name": "mmkvtest",
-  "displayName": "mmkvtest"
+  "displayName": "mmkvtest",
+  "plugins": [
+    "expo-secure-store"
+  ]
 }
